@@ -1,0 +1,2 @@
+# ignore jupyter notebook checkpoint directories anywhere
+**/.ipynb_checkpoints
