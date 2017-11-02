@@ -1,3 +1,4 @@
 Kyle Landin ktl14@pitt.edu
 # Licensing
-The condition of my data set is to use the same licensing that the provider uses. I will need to look into this more, but this is a placeholder for now.
+The License for this project is an Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0).
+https://creativecommons.org/licenses/by-nc-sa/3.0/

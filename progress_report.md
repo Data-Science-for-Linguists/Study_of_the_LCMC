@@ -1,6 +1,11 @@
 Kyle Landin ktl14@pitt.edu
 # Progress Report
 
+#10/31 - 11/2
+I am about half way through transforming the .xml files into pandas dataframes. I still have not had time to figure out an easier way to remove excess columns other than removing them one at a time, but that isn't a huge problem. I also realized that I should not be using the .concat function with the dataframes and instead use the .merge. This solved the NaN problem I was having previously. I figured this out when looking at the shape of the dataframe and seeing that it was twice as long as it should be. In the next few days I will finish transforming the rest of the .xml files into dataframes and can hopefully move on to trying to create more columns that have the parts of speech or a translation. I would also like to try and remove duplicates, but I'm not sure how to go about doing that.
+
+In terms of actual analysis, I am not entirely sure what to do for that. For hard numbers, the shortest dataframe so far is 28.5 thousand lines long and the longest so far is just over 130 thousand lines long.
+
 # 10/20 - 10/30
 I've been working with the data and have moved the Characters and Pinyin to their own dataframes in the first topic: News Reportage. For some reason, when initially moving them to dataframes, each individual characters (both Chinese characters and individual letters/numbers) get their own column. This is mostly a problem for the pinyin because it caused the dataframe to have 39 columns. I figured out how to combine everything into a single column, but I don't know a better way to remove the excess columns other than doing it one at a time. The process I used is very inefficient and can definitely be improved.
 
