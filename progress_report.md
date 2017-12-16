@@ -1,7 +1,17 @@
 Kyle Landin ktl14@pitt.edu
 # Progress Report
 
-#10/31 - 11/2
+# 12/8 - 12/14
+I've been trying to do more data collection and analysis. The things I've come up with to look at are looking at different parts of speech and which words are most frequent and how often those parts of speech appear, looking at the relationship between formal and informal language within the corpus based on personal knowledge, and looking at pronouns to see if male, female, or gender neutral appear more frequently.
+
+# 11/19 - 12/6
+I've spoken with Narae about my difficulties and we agreed that it might just be easier to start over and just pull the .xml text into lists based on some of my other code. From there I zipped the character lists, pinyin lists, and part of speech lists together. After that I turned those values into tokens to make it easier to collect data. Using the Counter function from Collections made it very easy to find the most common words.
+I was also able to create a dataframe of only unique words from the entire corpus and then used that to make a bar graph based on parts of speech.
+
+# 11/4 - 11/12
+I've finished transforming the .xml files into dataframes. Starting to try and figure out how to strip the tag values and add them to their own column in the dataframe.
+
+# 10/31 - 11/2
 I am about half way through transforming the .xml files into pandas dataframes. I still have not had time to figure out an easier way to remove excess columns other than removing them one at a time, but that isn't a huge problem. I also realized that I should not be using the .concat function with the dataframes and instead use the .merge. This solved the NaN problem I was having previously. I figured this out when looking at the shape of the dataframe and seeing that it was twice as long as it should be. In the next few days I will finish transforming the rest of the .xml files into dataframes and can hopefully move on to trying to create more columns that have the parts of speech or a translation. I would also like to try and remove duplicates, but I'm not sure how to go about doing that.
 
 In terms of actual analysis, I am not entirely sure what to do for that. For hard numbers, the shortest dataframe so far is 28.5 thousand lines long and the longest so far is just over 130 thousand lines long.
