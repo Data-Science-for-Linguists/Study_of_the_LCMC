@@ -6,15 +6,15 @@ This project is going to about taking a closer look at the data in the Lancaster
 The Lancaster Corpus of Mandarin Chinese is a corpus designed as a match for the FLOB and FROWN corpora for modern British and American English. It contains 15 categories ranging from news to fiction to government documents. A link to the download is provided [here](http://ota.ox.ac.uk/headers/2474.xml).
 
 ## Project Directory
-- [.gitignore](Study_of_the_LCMC/.gitignore): A file used to ignore specific files within the local repo.
-- [README.md](Study_of_the_LCMC/README.md): A project summary, a provided link to download the associated files for the LCMC corpus, and a directory of the files associated with this project.
-- [LICENSE.md](Study_of_the_LCMC/LICENSE.md): The License used for this project.
-- [LICENSE_notes.md](Study_of_the_LCMC/LICENSE_notes.md): Justification for the chosen license.
-- [project_plan.md](Study_of_the_LCMC/project_plan.md): My initial plans for this project.
-- [progress_report.md](Study_of_the_LCMC/progress_report.md): A list of my updates throughout my project.
-- [final_report.md](Study_of_the_LCMC/final_report.md): My final thoughts on and analysis of the data in the LCMC
-- [LCMC_Compiled_Data.ipynb](Study_of_the_LCMC/LCMC_Compiled_Data.ipynb): The final form of my code with compiled lists, a dataframe of unique words in the LCMC, and my data collection.
-- [LCMC_Compiled_Data.md](Study_of_the_LCMC/LCMC_Compiled_Data.md): The markdown version of my final code.
+- [.gitignore](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/.gitignore): A file used to ignore specific files within the local repo.
+- [README.md](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/README.md): A project summary, a provided link to download the associated files for the LCMC corpus, and a directory of the files associated with this project.
+- [LICENSE.md](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/LICENSE.md): The License used for this project.
+- [LICENSE_notes.md](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/LICENSE_notes.md): Justification for the chosen license.
+- [project_plan.md](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/project_plan.md): My initial plans for this project.
+- [progress_report.md](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/progress_report.md): A list of my updates throughout my project.
+- [final_report.md](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/final_report.md): My final thoughts on and analysis of the data in the LCMC
+- [LCMC_Compiled_Data.ipynb](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/LCMC_Compiled_Data.ipynb): The final form of my code with compiled lists, a dataframe of unique words in the LCMC, and my data collection.
+- [LCMC_Compiled_Data.md](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/LCMC_Compiled_Data.md): The markdown version of my final code.
 - [2474](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/tree/master/2474): All of the data from the Lancaster Corpus of Mandarin Chinese
 - [images](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/tree/master/images): .png files of any graphs or pictures produced by the code.
 - [Presentation](https://github.com/Data-Science-for-Linguists/Study_of_the_LCMC/tree/master/Presentation): My class presentation slides and the demonstration code I used.
